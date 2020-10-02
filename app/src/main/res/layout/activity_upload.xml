@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundNavigation"
+    tools:context=".UploadActivity">
+
+    <ScrollView
+        android:id="@+id/sv_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pb"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btn_choose_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose file" />
+
+            <EditText
+                android:id="@+id/edt_file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/btn_choose_image"
+                android:hint="Nama barang yang hilang"
+                android:textColorHint="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_choose_image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_below="@id/edt_file_name"
+                android:layout_marginTop="16dp" />
+            <EditText
+                android:id="@+id/edt_kontak_penemu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_choose_image"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:hint="Masukkan nomor kontak anda"/>
+            <EditText
+                android:id="@+id/edt_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan detail kehilangan"
+                android:textColorHint="@android:color/white"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/edt_kontak_penemu"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_upload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorNavigationText"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_back_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_upload"
+        android:layout_alignTop="@+id/btn_upload"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/btn_upload"
+        android:gravity="center"
+        android:text="Back Home"
+        android:textSize="16sp" />
+</RelativeLayout>

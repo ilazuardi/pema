@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PEMA</string>
+    <string name="home">Home</string>
+    <string name="lost_found">Lost &amp; Found</string>
+    <string name="aduan">Pengaduan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">Type</string>
+    <string name="event_info_placeholder">Detail acara</string>
+    <string name="kontak_label">Contact Person</string>
+    <string name="lost_info_placeholder">Lost and Found Detail</string>
+    <string name="action_refresh">Reload</string>
+    <string name="action_update">Upload kehilangan</string>
+    <string name="DetailKehilangan">Detail Kehilangan</string>
+</resources>

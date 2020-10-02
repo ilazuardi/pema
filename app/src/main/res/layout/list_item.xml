@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:background="?android:selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_acara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/tv_judul_acara"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_acara"
+            android:padding="@dimen/card_margin"
+            android:text="@string/title_placeholder"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_tipe_acara"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_acara"
+            android:padding="@dimen/card_margin"
+            android:text="@string/news_label"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/tv_detail_acara"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tipe_acara"
+            android:padding="@dimen/card_margin"
+            android:text="@string/event_info_placeholder" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

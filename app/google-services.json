@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "76137380772",
+    "firebase_url": "https://pema-c310f.firebaseio.com",
+    "project_id": "pema-c310f",
+    "storage_bucket": "pema-c310f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76137380772:android:21a3409cc9d9f5144d9f31",
+        "android_client_info": {
+          "package_name": "com.usu.pema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76137380772-flml5daoges0ll213jatliome2kppbcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.usu.pema",
+            "certificate_hash": "72ece430a177c18fe57ba54882e1468d61d3c2ac"
+          }
+        },
+        {
+          "client_id": "76137380772-f6f966l4sr4n1652set75h6h72hqhlfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3CVVUfE1yiPytzFCVoOUse5XhyCifBPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76137380772-f6f966l4sr4n1652set75h6h72hqhlfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
