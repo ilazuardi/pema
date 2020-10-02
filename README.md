@@ -1,4 +1,4 @@
-# pema
+# PEMA
 
 Application for organisation of student in usu
 
